@@ -1,0 +1,21 @@
+{
+	"name": "bot",
+	"version": "1.0.0",
+	"description": "my first bot",
+	"main": "index.js",
+	"repository": "https://github.com/nyankahmensah/bot.git",
+	"author": "devDeclan <noblecarly20@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"git": "git add . && git commit -m 'update' && git push & git push heroku master"
+	},
+	"dependencies": {
+		"axios": "^0.19.2",
+		"body-parser": "^1.19.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"request": "^2.88.2"
+	}
+}
